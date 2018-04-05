@@ -10,7 +10,6 @@ const Cta = props => {
       style={sectionStyle}
     >
       <div className="container">
-        {console.log(props.data)}
         <div className="cta_title">
           <h2 dangerouslySetInnerHTML={{ __html: props.data.title }} />
         </div>

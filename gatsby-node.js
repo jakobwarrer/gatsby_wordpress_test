@@ -28,7 +28,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         if (result.errors) {
           reject(result.errors)
         }
-        console.log(result)
         result.data.allWordpressPage.edges.forEach(edge => {
           createPage({
             path: `/${edge.node.slug}/`,

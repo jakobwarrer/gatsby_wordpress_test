@@ -9,7 +9,6 @@ import './index.css'
 
 const TemplateWrapper = ({ children, data }) => {
   const menu = data.wordpressWpApiMenusMenusItems.items
-  console.log(children)
   return (
     <div>
       <Helmet
